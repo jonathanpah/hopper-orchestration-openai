@@ -34,12 +34,12 @@ A distribuição usa um plugin com `plugin.json` portátil, `skills/`, metadados
 `agents/openai.yaml` e manifest compatível `.codex-plugin/plugin.json`, conforme
 a [documentação da OpenAI](https://developers.openai.com/plugins/build/plugins).
 O nome instalado e de exibição é `hopper-orchestration-openai`. Esta pasta é o
-pacote em português, versão `0.2.0`.
+pacote em português, versão `0.2.1`.
 
 Para instalar a versão publicada em português:
 
 ```sh
-codex plugin marketplace add jonathanpah/hopper-orchestration-openai --ref v0.2.0
+codex plugin marketplace add jonathanpah/hopper-orchestration-openai --ref v0.2.1
 codex plugin add hopper-orchestration-openai@hopper-orchestration-openai
 ```
 
@@ -62,10 +62,11 @@ podem manter instruções anteriores; não precisam ser interrompidas para insta
 
 ## Nomes e acionamento
 
-Selecione `hopper-orchestration-openai` no seletor de skills ou invoque:
+Selecione `hopper-orchestration-openai` no seletor de skills ou invoque seu
+identificador nativo, qualificado pelo plugin:
 
 ```text
-$hopper-orchestration-openai
+$hopper-orchestration-openai:hopper-orchestration-openai
 ```
 
 Descreva a entrega e seu escopo autorizado. Um pedido de orquestração também

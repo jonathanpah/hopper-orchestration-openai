@@ -1,7 +1,7 @@
 interface:
   display_name: "hopper-orchestration-openai"
   short_description: "Coordinates execution, review, and validation."
-  default_prompt: "Use $hopper-orchestration-openai to execute this task with independent review and validation."
+  default_prompt: "Use $hopper-orchestration-openai:hopper-orchestration-openai to execute this task with independent review and validation."
 
 policy:
   allow_implicit_invocation: true

@@ -2,7 +2,7 @@
 name: hopper-orchestration-openai
 description: Orquestre uma tarefa com agentes OpenAI para execução, revisão e validação. Use quando o usuário pedir essa coordenação; explicar, revisar ou criar a própria skill não inicia agentes.
 metadata:
-  version: "0.2.0"
+  version: "0.2.1"
 ---
 
 # hopper-orchestration-openai

@@ -35,7 +35,7 @@ Distribution uses a plugin with portable `plugin.json`, `skills/`,
 `agents/openai.yaml` metadata, and a compatible `.codex-plugin/plugin.json`,
 following [OpenAI's documentation](https://developers.openai.com/plugins/build/plugins).
 Installed name and display name are `hopper-orchestration-openai`. This folder
-is the English package, version `0.2.0`.
+is the English package, version `0.2.1`.
 
 To install English, clone the repository and register this language folder:
 
@@ -48,7 +48,7 @@ codex plugin add hopper-orchestration-openai@hopper-orchestration-openai
 For the published Portuguese package, the repository marketplace provides:
 
 ```sh
-codex plugin marketplace add jonathanpah/hopper-orchestration-openai --ref v0.2.0
+codex plugin marketplace add jonathanpah/hopper-orchestration-openai --ref v0.2.1
 codex plugin add hopper-orchestration-openai@hopper-orchestration-openai
 ```
 
@@ -64,10 +64,11 @@ may retain earlier instructions; installing does not require interrupting them.
 
 ## Names and invocation
 
-Select `hopper-orchestration-openai` in the skill picker or invoke:
+Select `hopper-orchestration-openai` in the skill picker or invoke its native
+plugin-qualified identifier:
 
 ```text
-$hopper-orchestration-openai
+$hopper-orchestration-openai:hopper-orchestration-openai
 ```
 
 Describe the deliverable and authorized scope. An orchestration request can
