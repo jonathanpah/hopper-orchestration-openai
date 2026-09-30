@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "hopper-orchestration-openai",
+  "version": "0.2.0",
+  "description": "Coordinates OpenAI agents with independent execution, review, and validation.",
+  "author": {
+    "name": "hopper-orchestration-openai contributors"
+  },
+  "homepage": "https://github.com/jonathanpah/hopper-orchestration-openai",
+  "repository": "https://github.com/jonathanpah/hopper-orchestration-openai",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "openai",
+    "orchestration",
+    "agent-skills"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "hopper-orchestration-openai",
+        "shortDescription": "Coordinates execution, review, and validation.",
+        "developerName": "hopper-orchestration-openai contributors",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "hopper-orchestration-openai",
+  "owner": {
+    "name": "hopper-orchestration-openai contributors"
+  },
+  "plugins": [
+    {
+      "name": "hopper-orchestration-openai",
+      "version": "0.2.0",
+      "description": "Coordena agentes OpenAI com execução, revisão e validação independentes.",
+      "author": {
+        "name": "hopper-orchestration-openai contributors"
+      },
+      "homepage": "https://github.com/jonathanpah/hopper-orchestration-openai",
+      "repository": "https://github.com/jonathanpah/hopper-orchestration-openai",
+      "license": "MIT",
+      "source": "./"
+    }
+  ]
+}

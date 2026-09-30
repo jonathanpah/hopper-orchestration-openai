@@ -1,0 +1,20 @@
+{
+  "name": "hopper-orchestration-openai",
+  "interface": {
+    "displayName": "hopper-orchestration-openai"
+  },
+  "plugins": [
+    {
+      "name": "hopper-orchestration-openai",
+      "source": {
+        "source": "local",
+        "path": "./hopper-orchestration-openai-pt-br"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

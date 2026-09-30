@@ -1,0 +1,7 @@
+interface:
+  display_name: "hopper-orchestration-openai"
+  short_description: "Coordena execução, revisão e validação com OpenAI."
+  default_prompt: "Use $hopper-orchestration-openai para executar esta tarefa com revisão e validação independentes."
+
+policy:
+  allow_implicit_invocation: true
