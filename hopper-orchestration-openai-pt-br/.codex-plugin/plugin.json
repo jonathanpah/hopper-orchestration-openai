@@ -1,6 +1,6 @@
 {
   "name": "hopper-orchestration-openai",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Coordena agentes OpenAI com execução, revisão e validação independentes.",
   "author": {
     "name": "hopper-orchestration-openai contributors"

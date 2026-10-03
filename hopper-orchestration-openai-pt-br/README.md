@@ -1,6 +1,6 @@
 # hopper-orchestration-openai
 
-[English](../hopper-orchestration-openai-en/README.md) | **Português (Brasil)**
+[English](https://github.com/jonathanpah/hopper-orchestration-openai/blob/v0.2.2/hopper-orchestration-openai-en/README.md) | **Português (Brasil)**
 
 Uma skill para coordenar agentes OpenAI no Codex CLI e no aplicativo, com
 entrega identificada, revisão independente e critérios comprovados.
@@ -34,19 +34,19 @@ A distribuição usa um plugin com `plugin.json` portátil, `skills/`, metadados
 `agents/openai.yaml` e manifest compatível `.codex-plugin/plugin.json`, conforme
 a [documentação da OpenAI](https://developers.openai.com/plugins/build/plugins).
 O nome instalado e de exibição é `hopper-orchestration-openai`. Esta pasta é o
-pacote em português, versão `0.2.1`.
+pacote em português, versão `0.2.2`.
 
 Para instalar a versão publicada em português:
 
 ```sh
-codex plugin marketplace add jonathanpah/hopper-orchestration-openai --ref v0.2.1
+codex plugin marketplace add jonathanpah/hopper-orchestration-openai --ref v0.2.2
 codex plugin add hopper-orchestration-openai@hopper-orchestration-openai
 ```
 
 Como alternativa, clone o repositório e cadastre esta pasta:
 
 ```sh
-git clone https://github.com/jonathanpah/hopper-orchestration-openai.git
+git clone --branch v0.2.2 https://github.com/jonathanpah/hopper-orchestration-openai.git
 codex plugin marketplace add ./hopper-orchestration-openai/hopper-orchestration-openai-pt-br
 codex plugin add hopper-orchestration-openai@hopper-orchestration-openai
 ```
@@ -127,7 +127,7 @@ exigem outra identidade verificável apropriada ao artefato.
 Os manifests Claude são mantidos para compatibilidade de formato. Esta release
 é destinada ao Codex; não instala nem comprova o fluxo no Claude.
 
-
+Consulte [verificação e limites](VALIDATION.md) para a cobertura real dos testes.
 
 ## Participação e licença
 

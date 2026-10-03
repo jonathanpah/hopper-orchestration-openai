@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "hopper-orchestration-openai",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Coordena agentes OpenAI com execução, revisão e validação independentes.",
   "author": {
     "name": "hopper-orchestration-openai contributors"
